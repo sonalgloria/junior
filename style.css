@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+
+body{
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.darkgrayishblue{
+    color:hsl(210, 10%, 33%);
+}
+
+.grayishblue{
+    color:hsl(201, 11%, 66%);
+}
+
+/* Header starts*/
+.bgimg{
+    position: relative;
+    width: 100%;
+}
+header .logo{
+    position: absolute;
+    width:auto;
+    height: 70px;
+    margin-top: -90px;
+    margin-left: -40px;
+}
+/* Header ends*/
+
+/* Buttons Starts */
+.btn1{
+    background-color:hsl(171, 66%, 44%); 
+    color:white; 
+    border-radius: 20px;
+}
+.btn2{
+    background-color:hsl(233, 100%, 69%); 
+    color:white; 
+    border-radius: 20px;
+}
+
+.btn1:hover {
+    box-shadow: 5px 5px 5px hsl(171, 66%, 44%); 
+    transform: translateY(-1px);
+}
+.btn2:hover {
+    box-shadow:5px 5px 5px hsl(233, 100%, 69%);
+    transform: translateY(-1px);
+}
+/* Buttons ends */
+
+/* Quick Search,iCloud Sync,Complete History starts*/
+.img{
+    max-width: 630px;
+    height:auto; 
+}
+
+.img2{
+    max-width: 100%;
+    height:auto;  
+}
+/* Quick Search,iCloud Sync,Complete History ends*/
+
+/*Access Clipboard Anywhere Starts*/
+.mobileimg{
+    max-width: 1150px;
+    height:auto;
+}
+
+.mobileimg2{
+    max-width: 100%;
+    height:auto;
+}
+/*Access Clipboard Anywhere endss*/
+
+/* Footer Starts */
+footer{
+    background-color: rgba(223, 219, 219, 0.575);
+}
+
+footer img{
+    width:auto;
+    height: 70px;
+}
+
+.link:hover{
+    text-decoration: none;
+    font-weight: 600;
+    color: hsl(233, 100%, 69%);
+}
+/* Footer Ends */
